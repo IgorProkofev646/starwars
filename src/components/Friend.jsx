@@ -1,7 +1,7 @@
 const Friend = ({picture, pos}) => {
     let styles = "w-full";
     if (pos === 7) {
-        styles += ' rounded-bl-2xl';
+        styles += ' rounded-bl-2xl'
     }
     if (pos === 9) {
         styles += ' rounded-br-2xl'
